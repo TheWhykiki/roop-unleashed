@@ -1,0 +1,28 @@
+@charset "UTF-8";
+span {
+  color: var(--block-info-text-color);
+}
+
+#fixedheight {
+  max-height: 238.4px;
+  overflow-y: auto !important;
+}
+
+.image-container.svelte-1l6wqyv {
+  height: 100%;
+}
+
+/* Hier können Sie Ihre benutzerdefinierten CSS-Stile hinzufügen */
+.gradio-container {
+  background-color: #f0f0f0;
+}
+
+.gradio-button {
+  background-color: #007bff;
+  color: red;
+}
+
+.gradio-button:hover {
+  color: white;
+  background-color: #0069d9;
+}/*# sourceMappingURL=custom.css.map */

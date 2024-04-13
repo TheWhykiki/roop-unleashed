@@ -38,15 +38,10 @@ def run():
     
     run_server = True
     uii.ui_restart_server = False
-    mycss = """
-        span {color: var(--block-info-text-color)}
-        #fixedheight {
-            max-height: 238.4px;
-            overflow-y: auto !important;
-        }
-        .image-container.svelte-1l6wqyv {height: 100%}
+    mycss = ""
+    with open("ui/customAssets/css/custom.css", "r") as file:
+        mycss = file.read()
 
-    """
 
     while run_server:
         server_name = roop.globals.CFG.server_name
